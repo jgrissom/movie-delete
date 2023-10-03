@@ -14,5 +14,6 @@ Movie movie = new Movie
   title = "Jeff's Killer Movie (2019)",
   genres = new List<string> { "Action", "Romance", "Comedy" }
 };
+Console.WriteLine(movie.Display());
 
 logger.Info("Program ended");
